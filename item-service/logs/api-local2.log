@@ -1,0 +1,31 @@
+2023-03-04T10:37:47.295+09:00  INFO 13592 --- [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
+2023-03-04T10:37:48.222+09:00  INFO 13592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-04T10:37:48.265+09:00  INFO 13592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-03-04T10:37:48.442+09:00  INFO 13592 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e211576-2505-3b88-9897-45ad2b7374c8
+2023-03-04T10:37:48.985+09:00  INFO 13592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2023-03-04T10:37:48.998+09:00  INFO 13592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-04T10:37:48.998+09:00  INFO 13592 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04T10:37:49.083+09:00  INFO 13592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-04T10:37:49.084+09:00  INFO 13592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1774 ms
+2023-03-04T10:37:49.301+09:00  INFO 13592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-04T10:37:49.354+09:00  INFO 13592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-04T10:37:49.528+09:00  WARN 13592 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-04T10:37:49.642+09:00  INFO 13592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-04T10:37:49.724+09:00  INFO 13592 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2f8c0039
+2023-03-04T10:37:49.726+09:00  INFO 13592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-04T10:37:49.748+09:00  INFO 13592 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-03-04T10:37:49.749+09:00  WARN 13592 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-03-04T10:37:50.790+09:00  INFO 13592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-04T10:37:50.800+09:00  INFO 13592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T10:37:51.154+09:00  WARN 13592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-04T10:37:52.165+09:00  INFO 13592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-04T10:37:52.323+09:00  INFO 13592 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-03-04T10:37:52.417+09:00  INFO 13592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2023-03-04T10:37:52.565+09:00  INFO 13592 --- [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 6.613 seconds (process running for 7.449)
+2023-03-04T10:38:32.133+09:00  INFO 13592 --- [http-nio-5000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-04T10:38:32.133+09:00  INFO 13592 --- [http-nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-04T10:38:32.135+09:00  INFO 13592 --- [http-nio-5000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-04T10:38:32.364+09:00  INFO 13592 --- [http-nio-5000-exec-1] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-04T10:38:32.403+09:00  INFO 13592 --- [http-nio-5000-exec-1] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8080
+2023-03-04T10:38:32.424+09:00  INFO 13592 --- [http-nio-5000-exec-1] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=item-service, profiles=[local], label=null, version=null, state=null
+2023-03-04T10:38:32.424+09:00  INFO 13592 --- [http-nio-5000-exec-1] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/item-service-local.yml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config/item-service.yml'}]

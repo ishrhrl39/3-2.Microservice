@@ -1,0 +1,75 @@
+2023-03-04T10:38:32.434+09:00  INFO 13592 --- [http-nio-5000-exec-1] o.s.boot.SpringApplication               : The following 1 profile is active: "local"
+2023-03-04T10:38:32.441+09:00  INFO 13592 --- [http-nio-5000-exec-1] o.s.boot.SpringApplication               : Started application in 0.256 seconds (process running for 47.324)
+2023-03-04T10:38:39.610+09:00  WARN 13592 --- [http-nio-5000-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.msa.item.controller.ItemController
+2023-03-04T10:38:39.780+09:00 DEBUG 13592 --- [http-nio-5000-exec-3] org.msa.item.controller.ItemController   : request add item id = 1
+2023-03-04T10:49:00.252+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-04T10:49:00.266+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-04T10:49:00.268+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-04T10:49:00.275+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T10:49:00.279+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-04T10:49:00.282+09:00  INFO 13592 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-04T14:05:11.162+09:00  INFO 17020 --- [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
+2023-03-04T14:05:12.144+09:00  INFO 17020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-04T14:05:12.298+09:00  INFO 17020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2023-03-04T14:05:12.547+09:00  INFO 17020 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c5b3292e-db88-32c3-946f-97cbdc1b53cd
+2023-03-04T14:05:13.140+09:00  INFO 17020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2023-03-04T14:05:13.151+09:00  INFO 17020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-04T14:05:13.152+09:00  INFO 17020 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-04T14:05:13.265+09:00  INFO 17020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-04T14:05:13.266+09:00  INFO 17020 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2091 ms
+2023-03-04T14:05:13.545+09:00  INFO 17020 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-04T14:05:13.606+09:00  INFO 17020 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-03-04T14:05:13.805+09:00  WARN 17020 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-04T14:05:13.935+09:00  INFO 17020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-04T14:05:14.022+09:00  INFO 17020 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3782aa60
+2023-03-04T14:05:14.024+09:00  INFO 17020 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-04T14:05:14.046+09:00  INFO 17020 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-03-04T14:05:14.047+09:00  WARN 17020 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MariaDB103Dialect has been deprecated; use org.hibernate.dialect.MariaDBDialect instead
+2023-03-04T14:05:15.121+09:00  INFO 17020 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-04T14:05:15.131+09:00  INFO 17020 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T14:05:15.476+09:00  WARN 17020 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-04T14:05:16.977+09:00  INFO 17020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-04T14:05:17.138+09:00  INFO 17020 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-04T14:05:17.221+09:00  INFO 17020 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-03-04T14:05:17.311+09:00  INFO 17020 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-04T14:05:17.357+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-03-04T14:05:17.363+09:00  INFO 17020 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-04T14:05:17.391+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-03-04T14:05:17.392+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-04T14:05:17.798+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-04T14:05:17.800+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-03-04T14:05:17.803+09:00  INFO 17020 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-03-04T14:05:17.808+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1677906317807 with initial instances count: 0
+2023-03-04T14:05:17.811+09:00  INFO 17020 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
+2023-03-04T14:05:17.812+09:00  INFO 17020 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677906317812, current=UP, previous=STARTING]
+2023-03-04T14:05:17.814+09:00  INFO 17020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-4VPH1H9:item-service:5000: registering service...
+2023-03-04T14:05:17.842+09:00  INFO 17020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2023-03-04T14:05:17.843+09:00  INFO 17020 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
+2023-03-04T14:05:17.913+09:00  INFO 17020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-4VPH1H9:item-service:5000 - registration status: 204
+2023-03-04T14:05:18.026+09:00  INFO 17020 --- [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 8.33 seconds (process running for 9.312)
+2023-03-04T14:05:47.803+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-03-04T14:05:47.803+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-03-04T14:05:47.803+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-03-04T14:05:47.804+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-03-04T14:05:47.805+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-03-04T14:05:47.806+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-03-04T14:05:47.807+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-03-04T14:05:47.822+09:00  INFO 17020 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-03-04T14:05:54.631+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-04T14:05:54.632+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2023-03-04T14:05:54.632+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1677906354632, current=DOWN, previous=UP]
+2023-03-04T14:05:54.632+09:00  INFO 17020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-4VPH1H9:item-service:5000: registering service...
+2023-03-04T14:05:54.639+09:00  INFO 17020 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-4VPH1H9:item-service:5000 - registration status: 204
+2023-03-04T14:05:54.648+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-04T14:05:54.658+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-04T14:05:54.661+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-04T14:05:54.665+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-04T14:05:54.666+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-03-04T14:05:57.676+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-03-04T14:05:57.682+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-4VPH1H9:item-service:5000 - deregister  status: 200
+2023-03-04T14:05:57.686+09:00  INFO 17020 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
